@@ -9,7 +9,7 @@
     <dt>Challenge:</dt>
     <dd>{data.challenge}</dd>
     <dt>Task:</dt>
-    <dd>{data.task}</dd>
+    <dd>{data.description}</dd>
 </dl>
 
 <div class="results">
