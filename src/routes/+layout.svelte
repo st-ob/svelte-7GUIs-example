@@ -1,5 +1,5 @@
 <script>
-    import {routes} from '$lib/routes';
+    import {routes} from '$lib/data/routes';
     let {children} = $props();
 </script>
 
@@ -17,7 +17,7 @@
     <!-- Navbar Links -->
     <ul>
         {#each routes as {name, path}}
-            <li><a href={path}>{name}</a></li>
+            <li><a href={`/${path}`}>{name}</a></li>
         {/each}
     </ul>
 </nav>
