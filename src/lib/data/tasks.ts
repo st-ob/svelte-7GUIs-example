@@ -27,5 +27,11 @@ export const tasks: Task[] = [
         path: "flightBooker",
         challenge: "Constraints",
         description: "Build a frame containing a combobox C with the option one-way flight and return flight, two textfields T_1 and T_2 representing start and return date and a button for submitting the selected flight. T_2 only enabled if return flight is selected. T_2 has to be before T_1. T_1 or T_2 red-colored, when wrong date format is entered. Button only active when all is valid. After button press, alter shall show up."
+    },
+    {
+        name: "Task 4: Timer",
+        path: "timer",
+        challenge: "concurrency, competing user/signal interactions, responsiveness",
+        description: "Build a frame containing a gauge G for the elapsed time e, a label which shows the elapsed time as numerical value, a slider S by which the duration d can be adjusted, while the timer is running and a reset button R. Slider S can change the total duration and if elapsed time is smaller than duration is will run, otherwise stop. Button will reset the timer to 0."
     }
 ];
