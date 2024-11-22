@@ -33,5 +33,11 @@ export const tasks: Task[] = [
         path: "timer",
         challenge: "concurrency, competing user/signal interactions, responsiveness",
         description: "Build a frame containing a gauge G for the elapsed time e, a label which shows the elapsed time as numerical value, a slider S by which the duration d can be adjusted, while the timer is running and a reset button R. Slider S can change the total duration and if elapsed time is smaller than duration is will run, otherwise stop. Button will reset the timer to 0."
+    },
+    {
+        name: "Task 5: CRUD",
+        path: "crud",
+        challenge: "separating the domain and presentation logic, managing mutation, building a non-trivial layout",
+        description: "Build a frame containing the following elements: textfield T_prefix, a pair of textfields T_name and T_surname, a listbox L and button B_C, B_U and B_D and three labels. L presents a view of the data in the database that consists of a list of names. At most one entry can be selected in L at a time."
     }
 ];
