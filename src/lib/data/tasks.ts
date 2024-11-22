@@ -39,5 +39,11 @@ export const tasks: Task[] = [
         path: "crud",
         challenge: "separating the domain and presentation logic, managing mutation, building a non-trivial layout",
         description: "Build a frame containing the following elements: textfield T_prefix, a pair of textfields T_name and T_surname, a listbox L and button B_C, B_U and B_D and three labels. L presents a view of the data in the database that consists of a list of names. At most one entry can be selected in L at a time."
+    },
+    {
+        name: "Task 6: Circle Drawer",
+        path: "circleDrawer",
+        challenge: "undo/redo, custom drawing, dialog control",
+        description: "The task is to build a frame containing an undo and redo button as well as a canvas area underneath. Left-clicking inside an empty area inside the canvas will create an unfilled circle with a fixed diameter whose center is the left-clicked point. The circle nearest to the mouse pointer such that the distance from its center to the pointer is less than its radius, if it exists, is filled with the color gray. The gray circle is the selected circle C. Right-clicking C will make a popup menu appear with one entry “Adjust diameter..”. Clicking on this entry will open another frame with a slider inside that adjusts the diameter of C. Changes are applied immediately. Closing this frame will mark the last diameter as significant for the undo/redo history. Clicking undo will undo the last significant change (i.e. circle creation or diameter adjustment). Clicking redo will reapply the last undoed change unless new changes were made by the user in the meantime."
     }
 ];
